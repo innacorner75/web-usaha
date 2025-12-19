@@ -413,7 +413,7 @@ body {
   min-height: 50vh;
   background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("https://image.idntimes.com/post/20250109/screenshot-2025-0109-0830472-579c18e74dce0f8e75e98443de8e9b79-f3645686a47e023d83e01fb4fe312dcd.jpg");
+    url("gambar/gambar_21.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -546,7 +546,7 @@ body {
     /* gradient dihilangkan, gunakan overlay hitam transparan */
     background:
         linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url("https://image.idntimes.com/post/20250109/screenshot-2025-0109-0830472-579c18e74dce0f8e75e98443de8e9b79-f3645686a47e023d83e01fb4fe312dcd.jpg");
+        url("gambar/gambar_23.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -947,4 +947,27 @@ body {
     margin-left: 4px;
     font-size: 14px;
 }
+.profile {
+    text-align: center;
+    padding: 20px;
+}
 
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;       /* Membuat bundar */
+    object-fit: cover;        /* Foto tidak gepeng */
+    border: 4px solid #755333;/* Opsional: garis elegan */
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    margin: 8px 0 5px;
+    font-size: 22px;
+    color: #333;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #666;
+}
